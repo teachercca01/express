@@ -3,6 +3,7 @@ var router = express.Router();
 
 /////////////////////////////////////////////////////////
 //第7回
+//MongoDBへの接続
 // レスポンスのデータ（ノート全件）
 const responseObjectDataAll = {
  textObject1: {
@@ -34,6 +35,7 @@ router.get('/', function (req, res, next) {
 
 /////////////////////////////////////////////////////////
 //第8回
+//MongoDBへの接続
 // 接続情報を設定
 const { MongoClient } = require("mongodb");
 const uri = "mongodb+srv://2201145002eu: XgQOTmwMb8e92rzU@test.iumsm.mongodb.net/?retryWrites=true&w=majority&appName=test";
