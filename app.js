@@ -16,8 +16,13 @@ var catRouter = require('./routes/cat');
 var yesnoRouter = require('./routes/yesno');
 //add cu
 var notes_from_bRouter = require('./routes/notes_from_b');
+//add cu
+var cors = require('cors'); 
 
 var app = express();
+
+//add cu
+app.use(cors());
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
